@@ -1,53 +1,95 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
 body {
-	line-height: 1;
-	width: 100%;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  
+
+  .image1 {
+    width: 100vh;
+  }
+
+
+  .blog-name {
+    flex-grow: 1;
+  }
+  
+  header {
+   background-image:linear-gradient(to right, #000328, #00458e);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  
+  
+  nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: #777;
+    background-color: whitesmoke;
+    border-radius: 5%;
+
+  }
+  
+  .content {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .topic h1 {
+   color:#020428;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .sidebar {
+  width: 300px;
+  background-color: #eee;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
 }
+  
+  h2 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #1f204c;
+    padding: 20px;
+    text-align: center;
+    color:white;
+  }
+  
+  main {
+    display: flex;
+  }
 
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote::before, blockquote::after,
-q::before, q::after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Do not write a css rule above here! Use the space below  */
-
-
-/* Write your css below here */
+ 
